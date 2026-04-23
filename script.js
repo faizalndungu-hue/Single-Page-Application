@@ -22,7 +22,6 @@ form.addEventListener("submit", function(event) {
     })
     .then(function(data) {
       const wordData = data[0];
-
       const meaning = wordData.meanings[0];
       const definitionObj = meaning.definitions[0];
 
